@@ -1,4 +1,4 @@
-import user_image from './about-me.jpg';
+import user_image from './profile_image.jpeg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -16,7 +16,7 @@ import logo from './logo-white.png';
 import logo_dark from './logo-white.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile_photo.jpg';
+import profile_img from './profile_image.jpeg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -100,28 +100,28 @@ export const assets = {
 export const workData = [
     {
         id:0,
-        title: 'Salon Booking System',
+        title: 'Job Application System',
         bgImage: '/work-1.png',
-        link:"https://github.com/Priyanshu-46/Salon-Booking-System.git"
+        link:"https://github.com/Ishakumari2830/JobAppication"
     },
     {
         id:1,
         title: 'Hospital Management System',
         bgImage: '/work-2.png',
-        link:"https://github.com/Priyanshu-46/Hospital-Management-System-Backend"
+        link:"https://github.com/Ishakumari2830/Hospital-Management-System-Application"
     },
 ]
 
 export const serviceData = [
-    {  id:0,icon: assets.web_icon, title: 'Custom Web Application Development', description: 'I create fully customized, scalable, and responsive web applications tailored to your unique business needs.', link: 'https://github.com/Priyanshu-46/Salon-Booking-System.git' },
-    {  id:1,icon: assets.mobile_icon, title: 'DevOps and API Integration', description: 'Crafting intuitive and visually appealing user interfaces using modern frameworks like React and Next.js', link: 'https://github.com/Ishakumari2830' },
+    {  id:0,icon: assets.web_icon, title: 'Custom Web Application Development', description: 'I create fully customized, scalable, and responsive web applications tailored to your unique business needs.', link: 'https://github.com/Ishakumari2830/Hospital-Management-System-Application' },
+    {  id:1,icon: assets.mobile_icon, title: 'DevOps and API Integration', description: 'I handle the entire DevOps process, including containerization, deployment, and API integration.', link: 'https://github.com/Ishakumari2830' },
     
-    {  id:2,icon: assets.ui_icon, title: 'Backend Development', description: 'Building robust and secure server-side applications with seamless API integrations for efficient data flow.', link: 'https://github.com/Priyanshu-46/Hospital-Management-System-Backend' },
+    {  id:2,icon: assets.ui_icon, title: 'Backend Development', description: 'Building robust and secure server-side applications with seamless API integrations for efficient data flow.', link: 'https://github.com/Ishakumari2830/JobAppication' },
     {  id:3,icon: assets.graphics_icon, title: 'Website Optimization & Maintenance', description: 'Enhancing website performance, ensuring fast load times, and providing ongoing updates and support.', link: 'https://github.com/Ishakumari2830' },
 ]
 
 export const infoList = [
-    {id:0, icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Java, SQL,Dart' },
+    {id:0, icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Java, SQL, Dart' },
     { id:1,icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology' },
     { id:2, icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
 ];
